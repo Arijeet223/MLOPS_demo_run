@@ -344,11 +344,6 @@ else:
     )
 
 
-
-# ==============================
-# REGISTER BEST MODEL
-# ==============================
-
 with mlflow.start_run():
 
     mlflow.log_param(
